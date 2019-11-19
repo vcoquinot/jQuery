@@ -1,0 +1,6 @@
+jQuery(function($){
+    //Je récupére l'élément qui a pour id h1
+    //je le cache en 3 sec et ensuite j'appelle une fonction anonyme
+    $("#h1").hide(3000,() => { console.log('Après avoir caché h1');}
+    );
+});
